@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # lab03-css
 
 This repository contains the CSS lab project structure used for the Web Tech Lab course.
@@ -16,3 +17,6 @@ This repository contains the CSS lab project structure used for the Web Tech Lab
 ## Getting Started
 
 Open `index.html` in your browser to begin.
+=======
+# web-tech-labs
+>>>>>>> 6ff85852aaca95b65dac5e82d005a6675688eb3d
