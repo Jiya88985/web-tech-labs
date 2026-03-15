@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Background Gallery</title>
+
+<style>
+
+/* General Page Style */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f0f0f0;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+    margin-top:40px;
+}
+
+
+/* Box Style */
+
+.demo-box{
+    height:180px;
+    margin:20px 0;
+    border-radius:15px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    line-height:180px;
+    font-size:20px;
+    background-size:120px;   /* helps show repeat pattern clearly */
+}
+
+
+
+/* ------------------- */
+/* Solid Color Backgrounds */
+/* ------------------- */
+
+.red{
+    background-color:#e74c3c;
+}
+
+.blue{
+    background-color:#3498db;
+}
+
+.green{
+    background-color:#2ecc71;
+}
+
+
+
+/* ------------------- */
+/* Image Backgrounds */
+/* ------------------- */
+
+.repeat{
+    background-image:url("Jiya.jpg");
+    background-repeat:repeat;
+}
+
+.no-repeat{
+    background-image:url("Jiya.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.repeat-x{
+    background-image:url("Jiya.jpg");
+    background-repeat:repeat-x;
+}
+
+.repeat-y{
+    background-image:url("Jiya.jpg");
+    background-repeat:repeat-y;
+}
+
+
+
+/* ------------------- */
+/* Gradients */
+/* ------------------- */
+
+.linear{
+    background:linear-gradient(to right,#ff7e5f,#feb47b);
+}
+
+.radial{
+    background:radial-gradient(circle,#6a11cb,#2575fc);
+}
+
+
+
+/* ------------------- */
+/* Multiple Backgrounds */
+/* ------------------- */
+
+.multi{
+
+background-image:
+url("Jiya.jpg"),
+linear-gradient(to bottom,#ff7e5f,#feb47b);
+
+background-repeat:repeat,no-repeat;
+background-position:center,center;
+
+}
+
+
+
+/* ------------------- */
+/* Background Blend Mode */
+/* ------------------- */
+
+.blend{
+
+background-image:
+url("Jiya.jpg"),
+linear-gradient(to right,#6a11cb,#2575fc);
+
+background-blend-mode:multiply;
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<h1>Background Gallery Demonstration</h1>
+
+
+<h2>Solid Color Backgrounds</h2>
+
+<div class="demo-box red">Red Background</div>
+<div class="demo-box blue">Blue Background</div>
+<div class="demo-box green">Green Background</div>
+
+
+
+<h2>Image Backgrounds with Repeat Patterns</h2>
+
+<div class="demo-box repeat">Repeat</div>
+<div class="demo-box no-repeat">No Repeat</div>
+<div class="demo-box repeat-x">Repeat X</div>
+<div class="demo-box repeat-y">Repeat Y</div>
+
+
+
+<h2>Linear and Radial Gradients</h2>
+
+<div class="demo-box linear">Linear Gradient</div>
+<div class="demo-box radial">Radial Gradient</div>
+
+
+
+<h2>Multiple Background Layers</h2>
+
+<div class="demo-box multi">Multiple Background Example</div>
+
+
+
+<h2>Background Blend Modes</h2>
+
+<div class="demo-box blend">Blend Mode Example</div>
+
+</body>
+</html>

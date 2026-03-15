@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Lab 03 - Web Technologies</title>
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/typography.css">
+<link rel="stylesheet" href="styles/components.css">
+<link rel="stylesheet" href="styles/effects.css">
+
+<style>
+
+/* Page Layout */
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f9;
+}
+
+/* Header */
+header{
+background:#2c3e50;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+}
+
+/* Navigation */
+nav{
+background:#729dc8;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav li{
+margin:0;
+}
+
+nav a{
+display:block;
+padding:15px 25px;
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#22aef4;
+}
+
+/* Welcome Section */
+.welcome{
+text-align:center;
+padding:40px;
+}
+
+.welcome p{
+font-size:18px;
+color:#555;
+}
+
+/* Exercise Cards */
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:20px;
+}
+
+.card{
+background:white;
+width:250px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-top:0;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#3498db;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.card a:hover{
+background:#3b11e3;
+}
+
+/* Footer */
+footer{
+margin-top:40px;
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Web Technologies - CSS Lab 03</h1>
+<p>Department of Computer Science | UET Peshawar</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="exercises/selectors.html">Selectors Exercise</a></li>
+<li><a href="exercises/typography.html">Typography Exercise</a></li>
+<li><a href="exercises/backgrounds.html">Background Exercise</a></li>
+<li><a href="exercises/images.html">Images Exercise</a></li>
+</ul>
+</nav>
+
+<section class="welcome">
+<h2>Welcome to CSS Lab Practice</h2>
+<p>This lab demonstrates different CSS concepts including selectors, typography, backgrounds, and image styling.</p>
+</section>
+
+<section class="container">
+
+<div class="card">
+<h3>Selectors</h3>
+<a href="exercises/selectors.html">Open Exercise</a>
+</div>
+
+<div class="card">
+<h3>Typography</h3>
+<a href="exercises/typography.html">Open Exercise</a>
+</div>
+
+<div class="card">
+<h3>Backgrounds</h3>
+<a href="exercises/backgrounds.html">Open Exercise</a>
+</div>
+
+<div class="card">
+<h3>Images</h3>
+<a href="exercises/images.html">Open Exercise</a>
+</div>
+
+</section>
+
+<footer>
+<p>CS 224L Web Technologies | Instructor: Mr. Mohammad</p>
+<p>University of Engineering & Technology, Peshawar</p>
+</footer>
+
+</body>
+</html>

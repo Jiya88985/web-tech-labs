@@ -1,0 +1,141 @@
+/* element selector */
+p{
+color:rgb(37, 156, 207);
+}
+
+/* class selector */
+.box{
+background:lightblue;
+padding:10px;
+}
+
+/* id selector */
+#special{
+color:rgb(3, 49, 71);
+font-weight:bold;
+}
+
+/* universal selector */
+*{
+font-family:Arial;
+}
+
+input[type]{
+border:2px solid black;
+}
+
+input[type="text"]{
+background:rgb(6, 67, 78);
+}
+
+a[href*="google"]{
+color:rgb(10, 113, 124);
+}
+
+a[href^="https"]{
+font-weight:bold;
+}
+
+img[src$=".png"]{
+border:3px solid rgb(21, 140, 126);
+}
+
+/* descendant */
+div p{
+color:rgb(9, 66, 97);
+}
+
+/* child */
+div > span{
+color:rgb(87, 97, 206);
+}
+
+/* adjacent sibling */
+h3 + p{
+background:rgb(24, 151, 147);
+}
+
+/* general sibling */
+h3 ~ p{
+font-size:18px;
+}
+
+a:link{
+color:rgb(12, 75, 130);
+}
+
+a:visited{
+color:rgb(81, 47, 146);
+}
+
+a:hover{
+color:rgb(37, 20, 228);
+}
+
+a:active{
+color:rgb(7, 67, 171);
+}
+
+input:focus{
+background-color:lightblue;
+}
+
+input:checked{
+outline:3px solid rgb(115, 18, 199);
+}
+
+input:disabled{
+background-color:gray;
+}
+
+li:first-child{
+color:rgb(8, 71, 196);
+}
+
+li:last-child{
+color:rgb(16, 226, 241);
+}
+
+li:nth-child(2){
+color:blue;
+}
+
+p:empty{
+background:rgb(99, 55, 176);
+height:20px;
+}
+
+div:not(.box){
+border:2px dashed black;
+padding:10px;
+}
+
+p::first-letter{
+font-size:30px;
+color:rgb(42, 28, 226);
+}
+
+p::first-line{
+font-weight:bold;
+}
+
+p::before{
+content:"★ ";
+}
+
+p::after{
+content:" ✓";
+}
+
+::selection{
+background:black;
+color:white;
+}
+
+
+
+
+
+
+
+

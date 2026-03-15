@@ -1,0 +1,39 @@
+/* Google Fonts */
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Font Sizes */
+.large-text {
+    font-size: 2rem;
+}
+
+.medium-text {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #b91212;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Text Alignment */
+p {
+    margin: 5px 0;
+}

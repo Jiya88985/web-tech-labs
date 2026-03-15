@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Exercise 1</title>
+
+<!-- Internal CSS -->
+<style>
+h1{
+color:blue;
+}
+</style>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="../styles/components.css">
+
+</head>
+
+<body>
+
+<h1>Internal CSS Example</h1>
+
+<p>This paragraph uses external CSS.</p>
+
+<h2 style="color:red;">Inline CSS Example</h2>
+
+</body>
+</html>
+
+<h2>Basic Selectors</h2>
+
+<p>Element selector example</p>
+
+<div class="box">
+Class selector example
+</div>
+
+<p id="special">
+ID selector example
+</p>
+
+<h2>Attribute Selectors</h2>
+
+<input type="text" placeholder="Enter name">
+
+<br><br>
+
+<a href="https://google.com">Google Link</a>
+
+<h2>Exercise 4: CSS Combinators</h2>
+
+<div>
+<p>Descendant Example</p>
+<span>Child Example</span>
+</div>
+
+<h3>Heading</h3>
+
+<p>Adjacent Paragraph</p>
+
+<p>General Sibling Paragraph</p>
+
+<h2>Exercise 5: Pseudo Classes</h2>
+
+<a href="https://example.com">Test Link</a>
+
+<br><br>
+
+<input type="text" placeholder="Click here to focus">
+
+<br><br>
+
+<input type="checkbox"> Checkbox Example
+
+<br><br>
+
+<input type="text" value="Disabled Field" disabled>
+
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+
+<p></p>
+
+<div class="box">Normal Div</div>
+<div>Div without class</div>
+
+<!-- CSS Selectors Demo Section -->
+<div class="demo-section">
+<h1 class="demo">CSS Selectors Demonstration</h1>
+
+<p class="demo">This section demonstrates various CSS selectors with better spacing.</p>
+
+<section>
+<h2 class="demo">Basic Selectors</h2>
+
+<p class="demo">Element selector example (h1.demo is blue)</p>
+
+<div class="highlight">
+Class selector example (highlighted background)
+</div>
+
+<p id="special-demo">
+ID selector example (red border)
+</p>
+</section>
+
+<section>
+<h2 class="demo">Attribute Selectors</h2>
+
+<input type="text" class="demo" placeholder="Text input - has type attribute">
+<br><br>
+<input type="email" class="demo" placeholder="Email input - has type attribute">
+<br><br>
+<a href="https://google.com" class="demo">Google Link (starts with https)</a>
+<br><br>
+<a href="http://example.com" class="demo">HTTP Link (starts with http)</a>
+</section>
+
+<section>
+<h2 class="demo">Combinators</h2>
+
+<div class="demo-div">
+    <p class="demo">Descendant: This paragraph is inside a div (purple text)</p>
+    <span>Span inside div</span>
+</div>
+
+<ul class="demo-ul">
+    <li>Child: First list item (square bullet)</li>
+    <li>Second list item</li>
+    <li>Third list item</li>
+</ul>
+
+<h3 class="demo">Adjacent Sibling</h3>
+<p class="demo">This paragraph immediately follows h3 (italic)</p>
+<p class="demo">This paragraph is a general sibling of h3 (underlined)</p>
+
+<h2 class="demo">More Examples</h2>
+<p class="demo">General sibling example (underlined)</p>
+</section>
+
+<section>
+<h3 class="demo">Pseudo-classes Demo</h3>
+<ul class="demo-list">
+    <li>First child (bold)</li>
+    <li>Second child (orange)</li>
+    <li>Third child</li>
+</ul>
+
+<button class="demo">Hover over me (changes background)</button>
+<br><br>
+<input type="text" class="demo" placeholder="Focus on me (blue outline)">
+</section>
+
+<section>
+<h4 class="demo">Links</h4>
+<a href="https://wikipedia.org" class="demo">Visit Wikipedia (green if https, purple if visited)</a>
+</section>
+</div>
+
